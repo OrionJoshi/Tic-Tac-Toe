@@ -75,7 +75,7 @@ button {
 .result {
   flex-direction: column;
   margin-bottom: 30px;
-  display: none;
+  visibility: hidden;
 }
 
 .result > div {
