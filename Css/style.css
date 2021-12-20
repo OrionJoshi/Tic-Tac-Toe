@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #e1e1e1;
+  font-family: "Nunito";
+}
+
+body {
+  background-color: #161719;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  color: #161719;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrapper {
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 80px;
+}
+
+.cell:hover {
+  background-color: #33353a;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-wrapper {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+/* navbar */
+.header {
+  display: flex;
+}
+.vt-bar {
+  border-left: 8px solid #e1e1e1;
+}
+
+/* style for game result */
+
+.result {
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: none;
+}
+
+.result > div {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+/* game status */
+.player {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.active {
+  border-bottom: 4px solid #e1e1e1;
+}
+
+/* border for cells */
+.col-0 {
+  border-right: 4px solid #e1e1e1;
+}
+.col-1 {
+  border-right: 4px solid #e1e1e1;
+}
+.row-0 {
+  border-bottom: 4px solid #e1e1e1;
+}
+.row-1 {
+  border-bottom: 4px solid #e1e1e1;
+}
